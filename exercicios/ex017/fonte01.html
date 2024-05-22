@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px normalmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* lighter, normal, bold, bolder */
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style > font-weight > font-size > font-family
+
+            font-family: 'Arial, Helvetica, sans-serif'
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            resumindo essas informações acima ficaria
+            */
+            font: italic bolder 3em 'Arial', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Arial';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae necessitatibus totam quaerat, sapiente maiores facilis natus tempora, fuga consequuntur at amet repellat accusamus mollitia ad iusto quos ex sunt magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, autem? Eaque soluta, iste asperiores voluptates consequuntur, quam impedit voluptatibus modi illum sint expedita earum vero enim commodi ut? Ut, nobis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae qui repellat voluptate non ab numquam earum, eligendi dicta sapiente ipsum soluta vero nihil accusamus libero fugiat laudantium quisquam corporis quaerat?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, labore optio molestiae rerum aspernatur illo, debitis ipsam nihil saepe possimus ratione qui voluptatem delectus, earum deserunt dolor asperiores veritatis distinctio!</p>
+</body>
+</html>
